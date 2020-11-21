@@ -5,13 +5,9 @@
 
 class EdgeList {
     private:
-        size_t _size;
         std::vector<int> _edges;
     
     public: 
-        const size_t& Size() const;
-        void Size(const size_t& size);
-
         std::vector<int>& Edges();
 
         EdgeList();
@@ -29,6 +25,8 @@ class Graph {
 
         void AddVertex();
 
+        Graph();
         Graph(const size_t& size);
+        Graph(const Graph& graphCopy);
         ~Graph();
 };

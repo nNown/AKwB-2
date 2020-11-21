@@ -3,13 +3,12 @@
 GraphParser* GraphParser::_parserInstance = nullptr;
 GraphParser::GraphParser() {}
 
-Graph* GraphParser::LoadGraph(const std::string& path) {
-    Graph* graphFromFile = new Graph(0);
+Graph GraphParser::LoadGraph(const std::string& path) {
+    Graph graphFromFile = Graph(0);
 
     std::ifstream graphFile = std::ifstream(path, std::ios::in);
     if(!graphFile.is_open()) {
-        std::cerr << "Failed to open file" << std::endl;
-        return nullptr;
+        throw std::runtime_error("Failed to open file");
     }
 
     std::string line;
@@ -21,29 +20,28 @@ Graph* GraphParser::LoadGraph(const std::string& path) {
         int sourceVertex;
         if(std::regex_search(line, sm, vertexPattern)) {
             sourceVertex = std::stoi(sm.str());
-            if((size_t)sourceVertex != graphFromFile->Vertices().size()) {
-                std::cerr << "Graph already has this vertex" << std::endl;
-                return nullptr;
+            if((size_t)sourceVertex != graphFromFile.Vertices().size()) {
+                throw std::logic_error("Graph already has this vertex");
             }
-            graphFromFile->AddVertex();
+            graphFromFile.AddVertex();
         } else {
-            std::cerr << "Graph file contains line that doesn't start with vertex index" << std::endl;
-            return nullptr;
+            throw std::logic_error("Graph file contains line that doesn't start with vertex index");
         }
 
         if(std::regex_search(line, sm, edgeListPattern)) {
             std::string destinationVertices = sm.str().substr(1, sm.str().size() - 2);
             destinationVertices.erase(std::remove(destinationVertices.begin(), destinationVertices.end(), ' '), destinationVertices.end());
             
+            if(destinationVertices.empty()) continue;
+            
             std::stringstream edgeList(destinationVertices);
             while(edgeList.good()) {
                 std::string destinationVertex;
                 std::getline(edgeList, destinationVertex, ',');
-                graphFromFile->AddEdge(sourceVertex, std::stoi(destinationVertex));
+                graphFromFile.AddEdge(sourceVertex, std::stoi(destinationVertex));
             }
         } else {
-            std::cerr << "Graph file doesn't contain properly formatted edge list" << std::endl;
-            return nullptr;
+            throw std::logic_error("Graph file doesn't contain properly formatted edge list");
         }
     }
 
