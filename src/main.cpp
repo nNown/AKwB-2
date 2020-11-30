@@ -6,20 +6,25 @@
 #include <time.h>
 
 int main(int argc, char* argv[]) {
-    GraphParser* parser = GraphParser::GraphParserInstance();
     srand(time(NULL));
+    GraphParser* parser = GraphParser::GraphParserInstance();
     GraphGenerator* generator = GraphGenerator::GraphGeneratorInstance();
 
-    for(int i = 1; i < argc; i++) {
-        Graph test = parser->LoadGraph(std::string(argv[i]));
-        for(auto& vertex : test.Vertices()) {
-            for(auto& edge : vertex.Edges()) {
-                std::cout << edge << " ";
-            }
-            std::cout << std::endl;
-        }
-        std::cout << std::endl;
-    }
+    Graph example = generator->GenerateRandomDirectedGraph(10, 0.85, true);
+    std::cout << "Example graph " << (generator->CheckIfGraphIsAdjoint(example) ? "true" : "false") << std::endl;
+    std::cout << "Graph Size: " << example.Vertices().size() << std::endl;
+    parser->SaveGraph(example, "./tests");
+
+    example = generator->TransformToAdjointGraph(example);
+    std::cout << "Adjoint " << (generator->CheckIfGraphIsAdjoint(example) ? "true" : "false") << std::endl;
+    std::cout << "Adjoint linear " << (generator->CheckIfAdjointGraphIsLinear(example) ? "true" : "false") << std::endl;
+    std::cout << "Graph Size: " << example.Vertices().size() << std::endl;
+    parser->SaveGraph(example, "./tests");
+
+    example = generator->TransformAdjointGraphToItsOrigin(example);
+    std::cout << "Is transfomed to origin adjoint? " << (generator->CheckIfGraphIsAdjoint(example) ? "true" : "false") << std::endl;
+    std::cout << "Graph Size: " << example.Vertices().size() << std::endl;
+    parser->SaveGraph(example, "./tests");
 
     return 0;
 }

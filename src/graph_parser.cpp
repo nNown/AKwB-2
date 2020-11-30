@@ -4,7 +4,7 @@ GraphParser* GraphParser::_parserInstance = nullptr;
 GraphParser::GraphParser() {}
 
 Graph GraphParser::LoadGraph(const std::string& path) {
-    Graph graphFromFile = Graph(0);
+    Graph graphFromFile = Graph();
 
     std::ifstream graphFile = std::ifstream(path, std::ios::in);
     if(!graphFile.is_open()) {
@@ -20,10 +20,10 @@ Graph GraphParser::LoadGraph(const std::string& path) {
         int sourceVertex;
         if(std::regex_search(line, sm, vertexPattern)) {
             sourceVertex = std::stoi(sm.str());
-            if((size_t)sourceVertex != graphFromFile.Vertices().size()) {
+            if(graphFromFile.Vertices().find(sourceVertex) != graphFromFile.Vertices().end()) {
                 throw std::logic_error("Graph already has this vertex");
             }
-            graphFromFile.AddVertex();
+            graphFromFile.AddVertex(sourceVertex);
         } else {
             throw std::logic_error("Graph file contains line that doesn't start with vertex index");
         }
@@ -31,9 +31,9 @@ Graph GraphParser::LoadGraph(const std::string& path) {
         if(std::regex_search(line, sm, edgeListPattern)) {
             std::string destinationVertices = sm.str().substr(1, sm.str().size() - 2);
             destinationVertices.erase(std::remove(destinationVertices.begin(), destinationVertices.end(), ' '), destinationVertices.end());
-            
+
             if(destinationVertices.empty()) continue;
-            
+
             std::stringstream edgeList(destinationVertices);
             while(edgeList.good()) {
                 std::string destinationVertex;
@@ -50,26 +50,25 @@ Graph GraphParser::LoadGraph(const std::string& path) {
 }
 
 void GraphParser::SaveGraph(Graph& graph, const std::string& path) {
-    std::stringstream ss;
-    ss << path << "/graph_s" << graph.Vertices().size() << ".graph";
+    std::stringstream filename;
+    filename << path << "/graph_s" << graph.Vertices().size() << ".graph";
 
     int filesWithTakenName = 0;
-    while(std::filesystem::exists(ss.str())) {
+    while(std::filesystem::exists(filename.str())) {
         ++filesWithTakenName;
-        ss.str(std::string());
-        ss << path << "/graph_s" << graph.Vertices().size() << "_" << filesWithTakenName << ".graph";
+        filename.str(std::string());
+        filename << path << "/graph_s" << graph.Vertices().size() << "_" << filesWithTakenName << ".graph";
     }
-    std::ofstream graphFile = std::ofstream(ss.str(), std::ios::out);
+    std::ofstream graphFile = std::ofstream(filename.str(), std::ios::out);
 
-    for(size_t i = 0; i < graph.Vertices().size(); i++) {
-        graphFile << i << ": { ";
-        for(size_t j = 0; j < graph.Vertices()[i].Edges().size(); j++) {
-            if(j == graph.Vertices()[i].Edges().size() - 1) graphFile << graph.Vertices()[i].Edges()[j] << " ";
-            else graphFile << graph.Vertices()[i].Edges()[j] << ", ";
+    for(auto i = graph.Vertices().begin(); i != graph.Vertices().end(); ++i) {
+        graphFile << i->first << ": { ";
+        for(std::size_t j = 0; j < graph.Vertices()[i->first].size(); j++) {
+            if(graph.Vertices()[i->first].size() - 1 == j) graphFile << graph.Vertices()[i->first][j] << " ";
+            else graphFile << graph.Vertices()[i->first][j] << ", ";
         }
-        graphFile << "}\n";
+        graphFile << "}" << std::endl;
     }
-
     graphFile.close();
 }
 

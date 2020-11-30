@@ -1,32 +1,22 @@
 #pragma once 
 
 #include <iostream>
+#include <map>
 #include <vector>
-
-class EdgeList {
-    private:
-        std::vector<int> _edges;
-    
-    public: 
-        std::vector<int>& Edges();
-
-        EdgeList();
-        ~EdgeList();
-};
 
 class Graph {
     private: 
-        std::vector<EdgeList> _vertices;    
+        std::map<int, std::vector<int>> _vertices;
     public:
-        std::vector<EdgeList>& Vertices();
+        std::map<int, std::vector<int>>& Vertices();
 
         void AddEdge(const int& i, const int& j);
         bool HasEdge(const int& i, const int& j);
 
-        void AddVertex();
+        void AddVertex(const int& i);
+        bool HasVertex(const int& i);
 
         Graph();
-        Graph(const size_t& size);
         Graph(const Graph& graphCopy);
         ~Graph();
 };

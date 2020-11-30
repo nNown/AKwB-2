@@ -1,5 +1,5 @@
 CXX = g++
-CPPFLAGS = -Wall -Wextra -Wno-unused-parameter -Iinclude/ -g -Og -std=c++17
+CPPFLAGS = -Wall -Wextra -Wno-unused-parameter -Iinclude/ -g -Og -std=c++2a
 LFLAGS = -lstdc++fs
 
 all: main
