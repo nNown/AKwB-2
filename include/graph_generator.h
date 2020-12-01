@@ -26,6 +26,7 @@ class GraphGenerator {
         Graph TransformAdjointGraphToItsOrigin(Graph& graph);
         bool CheckIfGraphIsAdjoint(Graph& graph);
         bool CheckIfAdjointGraphIsLinear(Graph& adjointGraph);
+        bool CheckIfGraphIsSimple(Graph& graph);
         static GraphGenerator* GraphGeneratorInstance();
         ~GraphGenerator();
 };

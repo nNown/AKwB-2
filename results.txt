@@ -1,0 +1,216 @@
+Graph: size: 10 density: 0.15 multi: false adjoint: false:0 
+Graph: size: 10 density: 0.15 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 14 multi: true adjoint:true:0 linear:true:0
+Graph: size: 10 density: 0.15 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 7 multi: true adjoint:true:0 linear:true:0
+Graph: size: 10 density: 0.15 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 10 multi: true adjoint:true:0 linear:true:0
+Graph: size: 15 density: 0.15 multi: false adjoint: false:0 
+Graph: size: 15 density: 0.15 multi: false adjoint: false:0 
+Graph: size: 15 density: 0.15 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 18 multi: true adjoint:true:0 linear:false:0
+Graph: size: 15 density: 0.15 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 22 multi: true adjoint:true:0 linear:true:0
+Graph: size: 20 density: 0.15 multi: true adjoint: false:0 
+Graph: size: 20 density: 0.15 multi: false adjoint: false:0 
+Graph: size: 20 density: 0.15 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 22 multi: true adjoint:true:0 linear:true:0
+Graph: size: 20 density: 0.15 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 22 multi: true adjoint:true:0 linear:true:0
+Graph: size: 25 density: 0.15 multi: true adjoint: false:0 
+Graph: size: 25 density: 0.15 multi: false adjoint: false:0 
+Graph: size: 25 density: 0.15 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:false:0
+Graph: size: 25 density: 0.15 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 26 multi: true adjoint:true:0 linear:true:0
+Graph: size: 30 density: 0.15 multi: true adjoint: false:0 
+Graph: size: 30 density: 0.15 multi: false adjoint: false:0 
+Graph: size: 30 density: 0.15 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:false:0
+Graph: size: 30 density: 0.15 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:false:0
+Graph: size: 35 density: 0.15 multi: true adjoint: false:0 
+Graph: size: 35 density: 0.15 multi: false adjoint: false:0 
+Graph: size: 35 density: 0.15 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 61 multi: true adjoint:true:0 linear:false:0
+Graph: size: 35 density: 0.15 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:true:0
+Graph: size: 40 density: 0.15 multi: true adjoint: false:0 
+Graph: size: 40 density: 0.15 multi: false adjoint: false:0 
+Graph: size: 40 density: 0.15 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 41 multi: true adjoint:true:0 linear:false:0
+Graph: size: 40 density: 0.15 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 60 multi: true adjoint:true:0 linear:false:0
+Graph: size: 45 density: 0.15 multi: true adjoint: false:0 
+Graph: size: 45 density: 0.15 multi: false adjoint: false:0 
+Graph: size: 45 density: 0.15 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 58 multi: true adjoint:true:0 linear:false:0
+Graph: size: 45 density: 0.15 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 50 multi: true adjoint:true:0 linear:true:0
+Graph: size: 50 density: 0.15 multi: true adjoint: false:0 
+Graph: size: 50 density: 0.15 multi: false adjoint: false:0 
+Graph: size: 50 density: 0.15 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 52 multi: true adjoint:true:0 linear:false:0
+Graph: size: 50 density: 0.15 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 64 multi: true adjoint:true:0 linear:true:0
+Graph: size: 10 density: 0.3 multi: true adjoint: false:0 
+Graph: size: 10 density: 0.3 multi: false adjoint: false:0 
+Graph: size: 10 density: 0.3 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 9 multi: true adjoint:true:0 linear:true:0
+Graph: size: 10 density: 0.3 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 12 multi: true adjoint:true:0 linear:true:0
+Graph: size: 15 density: 0.3 multi: true adjoint: false:0 
+Graph: size: 15 density: 0.3 multi: false adjoint: false:0 
+Graph: size: 15 density: 0.3 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 14 multi: true adjoint:true:0 linear:false:0
+Graph: size: 15 density: 0.3 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 16 multi: true adjoint:true:0 linear:true:0
+Graph: size: 20 density: 0.3 multi: true adjoint: false:0 
+Graph: size: 20 density: 0.3 multi: false adjoint: false:0 
+Graph: size: 20 density: 0.3 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 24 multi: true adjoint:true:0 linear:false:0
+Graph: size: 20 density: 0.3 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 20 multi: true adjoint:true:0 linear:true:0
+Graph: size: 25 density: 0.3 multi: true adjoint: false:0 
+Graph: size: 25 density: 0.3 multi: false adjoint: false:0 
+Graph: size: 25 density: 0.3 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 26 multi: true adjoint:true:0 linear:false:0
+Graph: size: 25 density: 0.3 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 25 multi: true adjoint:true:0 linear:true:0
+Graph: size: 30 density: 0.3 multi: true adjoint: false:0 
+Graph: size: 30 density: 0.3 multi: false adjoint: false:0 
+Graph: size: 30 density: 0.3 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:false:0
+Graph: size: 30 density: 0.3 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:true:0
+Graph: size: 35 density: 0.3 multi: true adjoint: false:0 
+Graph: size: 35 density: 0.3 multi: false adjoint: false:0 
+Graph: size: 35 density: 0.3 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 36 multi: true adjoint:true:0 linear:false:0
+Graph: size: 35 density: 0.3 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 39 multi: true adjoint:true:0 linear:true:0
+Graph: size: 40 density: 0.3 multi: true adjoint: false:0 
+Graph: size: 40 density: 0.3 multi: false adjoint: false:0 
+Graph: size: 40 density: 0.3 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 44 multi: true adjoint:true:0 linear:false:0
+Graph: size: 40 density: 0.3 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 44 multi: true adjoint:true:0 linear:true:0
+Graph: size: 45 density: 0.3 multi: true adjoint: false:0 
+Graph: size: 45 density: 0.3 multi: false adjoint: false:0 
+Graph: size: 45 density: 0.3 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 45 multi: true adjoint:true:0 linear:false:0
+Graph: size: 45 density: 0.3 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 45 multi: true adjoint:true:0 linear:true:0
+Graph: size: 50 density: 0.3 multi: true adjoint: false:0 
+Graph: size: 50 density: 0.3 multi: false adjoint: false:0 
+Graph: size: 50 density: 0.3 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 55 multi: true adjoint:true:0 linear:false:0
+Graph: size: 50 density: 0.3 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 50 multi: true adjoint:true:0 linear:true:0
+Graph: size: 10 density: 0.45 multi: true adjoint: false:0 
+Graph: size: 10 density: 0.45 multi: false adjoint: false:0 
+Graph: size: 10 density: 0.45 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 13 multi: true adjoint:true:0 linear:false:0
+Graph: size: 10 density: 0.45 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 12 multi: true adjoint:true:0 linear:false:0
+Graph: size: 15 density: 0.45 multi: true adjoint: false:0 
+Graph: size: 15 density: 0.45 multi: false adjoint: false:0 
+Graph: size: 15 density: 0.45 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 19 multi: true adjoint:true:0 linear:false:0
+Graph: size: 15 density: 0.45 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 16 multi: true adjoint:true:0 linear:true:0
+Graph: size: 20 density: 0.45 multi: true adjoint: false:0 
+Graph: size: 20 density: 0.45 multi: false adjoint: false:0 
+Graph: size: 20 density: 0.45 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 20 multi: true adjoint:true:0 linear:false:0
+Graph: size: 20 density: 0.45 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 21 multi: true adjoint:true:0 linear:true:0
+Graph: size: 25 density: 0.45 multi: true adjoint: false:0 
+Graph: size: 25 density: 0.45 multi: false adjoint: false:0 
+Graph: size: 25 density: 0.45 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:false:0
+Graph: size: 25 density: 0.45 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 25 multi: true adjoint:true:0 linear:true:0
+Graph: size: 30 density: 0.45 multi: true adjoint: false:0 
+Graph: size: 30 density: 0.45 multi: false adjoint: false:0 
+Graph: size: 30 density: 0.45 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 32 multi: true adjoint:true:0 linear:false:0
+Graph: size: 30 density: 0.45 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:true:0
+Graph: size: 35 density: 0.45 multi: true adjoint: false:0 
+Graph: size: 35 density: 0.45 multi: false adjoint: false:0 
+Graph: size: 35 density: 0.45 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 35 multi: true adjoint:true:0 linear:false:0
+Graph: size: 35 density: 0.45 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 35 multi: true adjoint:true:0 linear:true:0
+Graph: size: 40 density: 0.45 multi: true adjoint: false:0 
+Graph: size: 40 density: 0.45 multi: false adjoint: false:0 
+Graph: size: 40 density: 0.45 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:false:0
+Graph: size: 40 density: 0.45 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:true:0
+Graph: size: 45 density: 0.45 multi: true adjoint: false:0 
+Graph: size: 45 density: 0.45 multi: false adjoint: false:0 
+Graph: size: 45 density: 0.45 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 45 multi: true adjoint:true:0 linear:false:0
+Graph: size: 45 density: 0.45 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 45 multi: true adjoint:true:0 linear:true:0
+Graph: size: 50 density: 0.45 multi: true adjoint: false:0 
+Graph: size: 50 density: 0.45 multi: false adjoint: false:0 
+Graph: size: 50 density: 0.45 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 50 multi: true adjoint:true:0 linear:false:0
+Graph: size: 50 density: 0.45 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 50 multi: true adjoint:true:0 linear:true:0
+Graph: size: 10 density: 0.6 multi: true adjoint: false:0 
+Graph: size: 10 density: 0.6 multi: false adjoint: false:0 
+Graph: size: 10 density: 0.6 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 12 multi: true adjoint:true:0 linear:false:0
+Graph: size: 10 density: 0.6 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 13 multi: true adjoint:true:0 linear:true:0
+Graph: size: 15 density: 0.6 multi: true adjoint: false:0 
+Graph: size: 15 density: 0.6 multi: false adjoint: false:0 
+Graph: size: 15 density: 0.6 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 15 multi: true adjoint:true:0 linear:false:0
+Graph: size: 15 density: 0.6 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 15 multi: true adjoint:true:0 linear:true:0
+Graph: size: 20 density: 0.6 multi: true adjoint: false:0 
+Graph: size: 20 density: 0.6 multi: false adjoint: false:0 
+Graph: size: 20 density: 0.6 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 20 multi: true adjoint:true:0 linear:false:0
+Graph: size: 20 density: 0.6 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 20 multi: true adjoint:true:0 linear:true:0
+Graph: size: 25 density: 0.6 multi: true adjoint: false:0 
+Graph: size: 25 density: 0.6 multi: false adjoint: false:0 
+Graph: size: 25 density: 0.6 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 25 multi: true adjoint:true:0 linear:false:0
+Graph: size: 25 density: 0.6 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 25 multi: true adjoint:true:0 linear:true:0
+Graph: size: 30 density: 0.6 multi: true adjoint: false:0 
+Graph: size: 30 density: 0.6 multi: false adjoint: false:0 
+Graph: size: 30 density: 0.6 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:false:0
+Graph: size: 30 density: 0.6 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:true:0
+Graph: size: 35 density: 0.6 multi: true adjoint: false:0 
+Graph: size: 35 density: 0.6 multi: false adjoint: false:0 
+Graph: size: 35 density: 0.6 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 35 multi: true adjoint:true:0 linear:false:0
+Graph: size: 35 density: 0.6 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 35 multi: true adjoint:true:0 linear:true:0
+Graph: size: 40 density: 0.6 multi: true adjoint: false:0 
+Graph: size: 40 density: 0.6 multi: false adjoint: false:0 
+Graph: size: 40 density: 0.6 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:false:0
+Graph: size: 40 density: 0.6 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:true:0
+Graph: size: 45 density: 0.6 multi: true adjoint: false:0 
+Graph: size: 45 density: 0.6 multi: false adjoint: false:0 
+Graph: size: 45 density: 0.6 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 45 multi: true adjoint:true:0 linear:false:0
+Graph: size: 45 density: 0.6 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 45 multi: true adjoint:true:0 linear:true:0
+Graph: size: 50 density: 0.6 multi: true adjoint: false:0 
+Graph: size: 50 density: 0.6 multi: false adjoint: false:0 
+Graph: size: 50 density: 0.6 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 50 multi: true adjoint:true:0 linear:false:0
+Graph: size: 50 density: 0.6 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 50 multi: true adjoint:true:0 linear:true:0
+Graph: size: 10 density: 0.85 multi: true adjoint: false:0 
+Graph: size: 10 density: 0.85 multi: false adjoint: false:0 
+Graph: size: 10 density: 0.85 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 10 multi: true adjoint:true:0 linear:false:0
+Graph: size: 10 density: 0.85 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 10 multi: true adjoint:true:0 linear:true:0
+Graph: size: 15 density: 0.85 multi: true adjoint: false:0 
+Graph: size: 15 density: 0.85 multi: false adjoint: false:0 
+Graph: size: 15 density: 0.85 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 15 multi: true adjoint:true:0 linear:false:0
+Graph: size: 15 density: 0.85 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 15 multi: true adjoint:true:0 linear:true:0
+Graph: size: 20 density: 0.85 multi: true adjoint: false:0 
+Graph: size: 20 density: 0.85 multi: false adjoint: false:0 
+Graph: size: 20 density: 0.85 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 20 multi: true adjoint:true:0 linear:false:0
+Graph: size: 20 density: 0.85 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 20 multi: true adjoint:true:0 linear:true:0
+Graph: size: 25 density: 0.85 multi: true adjoint: false:0 
+Graph: size: 25 density: 0.85 multi: false adjoint: false:0 
+Graph: size: 25 density: 0.85 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 25 multi: true adjoint:true:0 linear:false:0
+Graph: size: 25 density: 0.85 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 25 multi: true adjoint:true:0 linear:true:0
+Graph: size: 30 density: 0.85 multi: true adjoint: false:0 
+Graph: size: 30 density: 0.85 multi: false adjoint: false:0 
+Graph: size: 30 density: 0.85 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:false:0
+Graph: size: 30 density: 0.85 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:true:0
+Graph: size: 35 density: 0.85 multi: true adjoint: false:0 
+Graph: size: 35 density: 0.85 multi: false adjoint: false:0 
+Graph: size: 35 density: 0.85 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 35 multi: true adjoint:true:0 linear:false:0
+Graph: size: 35 density: 0.85 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 35 multi: true adjoint:true:0 linear:true:0
+Graph: size: 40 density: 0.85 multi: true adjoint: false:0 
+Graph: size: 40 density: 0.85 multi: false adjoint: false:0 
+Graph: size: 40 density: 0.85 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:false:0
+Graph: size: 40 density: 0.85 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:true:0
+Graph: size: 45 density: 0.85 multi: true adjoint: false:0 
+Graph: size: 45 density: 0.85 multi: false adjoint: false:0 
+Graph: size: 45 density: 0.85 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 45 multi: true adjoint:true:0 linear:false:0
+Graph: size: 45 density: 0.85 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 45 multi: true adjoint:true:0 linear:true:0
+Graph: size: 50 density: 0.85 multi: true adjoint: false:0 
+Graph: size: 50 density: 0.85 multi: false adjoint: false:0 
+Graph: size: 50 density: 0.85 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 50 multi: true adjoint:true:0 linear:false:0
+Graph: size: 50 density: 0.85 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 50 multi: true adjoint:true:0 linear:true:0
+Graph: size: 10 density: 0.9 multi: true adjoint: false:0 
+Graph: size: 10 density: 0.9 multi: false adjoint: false:0 
+Graph: size: 10 density: 0.9 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 17 multi: true adjoint:true:0 linear:false:0
+Graph: size: 10 density: 0.9 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 10 multi: true adjoint:true:0 linear:true:0
+Graph: size: 15 density: 0.9 multi: true adjoint: false:0 
+Graph: size: 15 density: 0.9 multi: false adjoint: false:0 
+Graph: size: 15 density: 0.9 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 15 multi: true adjoint:true:0 linear:false:0
+Graph: size: 15 density: 0.9 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 15 multi: true adjoint:true:0 linear:true:0
+Graph: size: 20 density: 0.9 multi: true adjoint: false:0 
+Graph: size: 20 density: 0.9 multi: false adjoint: false:0 
+Graph: size: 20 density: 0.9 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 20 multi: true adjoint:true:0 linear:false:0
+Graph: size: 20 density: 0.9 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 20 multi: true adjoint:true:0 linear:true:0
+Graph: size: 25 density: 0.9 multi: true adjoint: false:0 
+Graph: size: 25 density: 0.9 multi: false adjoint: false:0 
+Graph: size: 25 density: 0.9 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 25 multi: true adjoint:true:0 linear:false:0
+Graph: size: 25 density: 0.9 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 25 multi: true adjoint:true:0 linear:true:0
+Graph: size: 30 density: 0.9 multi: true adjoint: false:0 
+Graph: size: 30 density: 0.9 multi: false adjoint: false:0 
+Graph: size: 30 density: 0.9 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:false:0
+Graph: size: 30 density: 0.9 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 30 multi: true adjoint:true:0 linear:true:0
+Graph: size: 35 density: 0.9 multi: true adjoint: false:0 
+Graph: size: 35 density: 0.9 multi: false adjoint: false:0 
+Graph: size: 35 density: 0.9 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 35 multi: true adjoint:true:0 linear:false:0
+Graph: size: 35 density: 0.9 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 35 multi: true adjoint:true:0 linear:true:0
+Graph: size: 40 density: 0.9 multi: true adjoint: false:0 
+Graph: size: 40 density: 0.9 multi: false adjoint: false:0 
+Graph: size: 40 density: 0.9 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:false:0
+Graph: size: 40 density: 0.9 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 40 multi: true adjoint:true:0 linear:true:0
+Graph: size: 45 density: 0.9 multi: true adjoint: false:0 
+Graph: size: 45 density: 0.9 multi: false adjoint: false:0 
+Graph: size: 45 density: 0.9 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 45 multi: true adjoint:true:0 linear:false:0
+Graph: size: 45 density: 0.9 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 45 multi: true adjoint:true:0 linear:true:0
+Graph: size: 50 density: 0.9 multi: true adjoint: false:0 
+Graph: size: 50 density: 0.9 multi: false adjoint: false:0 
+Graph: size: 50 density: 0.9 multi: false adjoint: true:0 linear: false:0 Transformed graph:0 size: 50 multi: true adjoint:true:0 linear:false:0
+Graph: size: 50 density: 0.9 multi: false adjoint: true:0 linear: true:0 Transformed graph:0 size: 50 multi: true adjoint:true:0 linear:true:0

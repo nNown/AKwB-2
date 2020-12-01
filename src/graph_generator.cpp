@@ -78,9 +78,9 @@ Graph GraphGenerator::TransformAdjointGraphToItsOrigin(Graph& graph) {
             if(graph.HasEdge(i->first, associatedVertex)) {
                 int changedIndex = edge[0];
                 edge[0] = originGraphEdges[i->first][1];
-                for(auto& [ vert, edg ] : originGraphEdges) {
-                    if(edg[0] == changedIndex) edg[0] = originGraphEdges[i->first][1];
-                    if(edg[1] == changedIndex) edg[1] = originGraphEdges[i->first][1];
+                for(auto& [ vertex, changedEdge ] : originGraphEdges) {
+                    if(changedEdge[0] == changedIndex) changedEdge[0] = originGraphEdges[i->first][1];
+                    if(changedEdge[1] == changedIndex) changedEdge[1] = originGraphEdges[i->first][1];
                 }
             }
         }
@@ -126,6 +126,20 @@ bool GraphGenerator::CheckIfAdjointGraphIsLinear(Graph& adjointGraph) {
                     if(commonPredecessor >= 2) return false;
                 }
             }
+        }
+    }
+    return true;
+}
+
+bool GraphGenerator::CheckIfGraphIsSimple(Graph& graph) {
+    for(auto& [ associatedVertex, edgeList ] : graph.Vertices()) {
+        int duplicates = 0;
+        for(auto& element : edgeList) {
+            for(auto& comparedElement : edgeList) {
+                if(element == comparedElement) ++duplicates;
+            }
+            if(duplicates > 1) return false;
+            duplicates = 0;
         }
     }
     return true;

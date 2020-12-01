@@ -16,7 +16,7 @@ class GraphParser {
         
     public:
         Graph LoadGraph(const std::string& path);
-        void SaveGraph(Graph& graph, const std::string& path);
+        void SaveGraph(Graph& graph, const std::string& path, const std::string& name);
         static GraphParser* GraphParserInstance();
         ~GraphParser();
 };

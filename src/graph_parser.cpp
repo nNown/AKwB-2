@@ -49,15 +49,15 @@ Graph GraphParser::LoadGraph(const std::string& path) {
     return graphFromFile;
 }
 
-void GraphParser::SaveGraph(Graph& graph, const std::string& path) {
+void GraphParser::SaveGraph(Graph& graph, const std::string& path, const std::string& name) {
     std::stringstream filename;
-    filename << path << "/graph_s" << graph.Vertices().size() << ".graph";
+    filename << path << "/" << name << ".graph";
 
     int filesWithTakenName = 0;
     while(std::filesystem::exists(filename.str())) {
         ++filesWithTakenName;
         filename.str(std::string());
-        filename << path << "/graph_s" << graph.Vertices().size() << "_" << filesWithTakenName << ".graph";
+        filename << path << "/" << name << "_" << filesWithTakenName << ".graph";
     }
     std::ofstream graphFile = std::ofstream(filename.str(), std::ios::out);
 
