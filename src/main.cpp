@@ -11,7 +11,6 @@ int main(int argc, char* argv[]) {
     srand(time(NULL));
     GraphParser* parser = GraphParser::GraphParserInstance();
     GraphGenerator* generator = GraphGenerator::GraphGeneratorInstance();
-
     for(int i = 1; i < argc; i++) {
         Graph example = parser->LoadGraph(argv[i]);
         if(generator->CheckIfGraphIsAdjoint(example)) {

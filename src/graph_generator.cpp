@@ -117,7 +117,8 @@ bool GraphGenerator::CheckIfGraphIsAdjoint(Graph& graph) {
 bool GraphGenerator::CheckIfAdjointGraphIsLinear(Graph& adjointGraph) {
     for(auto i = adjointGraph.Vertices().begin(); i != adjointGraph.Vertices().end(); ++i) {
         for(auto j = adjointGraph.Vertices().begin(); j != adjointGraph.Vertices().end(); ++j) {
-            if(adjointGraph.Vertices()[i->first] == adjointGraph.Vertices()[j->first]) {
+            if(i == j) continue;
+            if(adjointGraph.Vertices()[i->first] == adjointGraph.Vertices()[j->first] && adjointGraph.Vertices()[i->first].size() > 0) {
                 for(auto& [ vertex, edgeList ] : adjointGraph.Vertices()) {
                     int commonPredecessor = 0;
                     for(auto& element : edgeList) {
